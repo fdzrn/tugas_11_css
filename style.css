@@ -1,0 +1,35 @@
+ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 19px;
+  text-decoration: none;
+  font-size: 17px;
+}
+main{
+	background-color: #f0f0f0;
+	margin: auto 5px;
+}
+p {
+	column-span: all;
+	column-count: 4;
+	column-fill: balance;
+	column-rule: 3px solid black;
+	text-align: justify;
+}
+footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+}
